@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manipulación del DOM básica - Curso Práctico de JavaScript</title>
+</head>
+<body>
+  <h1>Manipulación del DOM básica</h1>
+
+  <input id="calculo1" placeholder="Escribe algo aquí" />
+  <input id="calculo2" placeholder="Escribe algo aquí" />
+  <button id="btnCalcular" onclick="btnOnClick()">Calcular</button>
+  <!-- onclick sirve para decir que cuando se haga click en el boton, ejecute el comando de javascript que le pasamos, lo usual es que ese comando sea una función en la que vamos a tener escrito qué es lo que tiene que hacer -->
+  
+  <!-- Para cada tipo de elemento HTML hay diferentes atributos para mandar a javascript, por ejemplo para "input" se usa el atributo "onchange", para formularios el "submit", etc. Pero en todos se hace lo mismo: atributo="COMANDO DE JS " -->
+
+  <!-- EN LA PROXIMA CLASE VEMOS EL ADEVENTLISENER QUE OTRA FORMA, MAS USADA, DE ESCUCHAR EVENTOS DE HTML DESDE JS -->
+  
+  <p id="result"></p>
+
+  <script src="./script.js"></script>
+</body>
+</html>
